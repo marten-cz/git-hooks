@@ -6,10 +6,6 @@
 #
 # @author Martin Malek <tmp2009@marten-online.com>
 
-if [ "$FORCE" == "1" ]; then
-    exit 0
-fi
-
 #PHPCS_BIN=/usr/bin/phpcs
 PHPCS_CODING_STANDARD=Zend
 PHPCS_IGNORE=
