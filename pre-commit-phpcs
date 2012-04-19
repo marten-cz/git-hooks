@@ -107,7 +107,7 @@ RETVAL=$?
 rm -rf $TMP_STAGING
 
 if [ $RETVAL -ne 0 ]; then
-    echo "$OUTPUT" | less
+    echo "$OUTPUT"
 fi
 
 exit $RETVAL
